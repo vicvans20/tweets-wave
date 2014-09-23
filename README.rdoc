@@ -1,0 +1,4 @@
+== README
+Ruby: 2.1.2
+This app is intended to make use of twitter API to retrieve the desired data according to the options provided.
+<tt>rake doc:app</tt>.
