@@ -38,3 +38,15 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+#Project specific gems
+gem 'zurb-foundation'
+gem 'compass-rails', '~> 2.0.alpha.0'
+gem "figaro", "~> 0.7.0"
+gem 'tweetstream'
+gem 'oauth'
+gem 'json'
+group :development do
+	gem 'better_errors'
+	gem 'quiet_assets'
+	gem 'rails_layout'
+end
